@@ -6,7 +6,7 @@
   --Roboto: "Roboto", sans-serif;
   --dark: #3c393d;
   --exDark: #2b2b2b;
-  --pur:rgb(163, 118, 179);
+  --pur: rgb(163, 118, 179);
 }
 * {
   padding: 0;
@@ -29,8 +29,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://source.unsplash.com/1800x800/?landscape");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
+    /* ,
+    url("https://source.unsplash.com/1800x800/?landscape") */;
   min-height: 100vh;
 }
 .nav {
@@ -72,33 +73,33 @@ header {
   opacity: 0.5;
 }
 
-footer{
-    background: var(--exDark);
-    text-align: center;
-    grid-area: ft;
-    color: #fff;
-    padding: 2rem 0;
+footer {
+  background: var(--exDark);
+  text-align: center;
+  grid-area: ft;
+  color: #fff;
+  padding: 2rem 0;
 }
-.social{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
- .social a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
-    margin: 0 0.8rem;
-    width: 30px;
-    height: 30px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    transition: all 0.5s ease;
- }
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 0.8rem;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
 
- .social a:hover{
-    color: var(--pur);
-    background: #fff;
- }
+.social a:hover {
+  color: var(--pur);
+  background: #fff;
+}

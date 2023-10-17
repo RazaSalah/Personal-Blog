@@ -2,57 +2,69 @@
 @import url("./banner.css");
 
 .project {
-    grid-area: main;
-    padding: 3rem 0;
+  grid-area: main;
+  padding: 3rem 0;
 }
 
 .sectionTitle {
-    text-align: center;
+  text-align: center;
 }
-
+.sectionTitle h1 {
+  font-size: 2rem;
+}
 .sectionTitle p {
-    padding: 2rem 0;
+  padding: 2rem 0;
+  font-size: 2rem;
 }
-.content{
-    margin:2.4rem 0 ;
- 
+.content {
+  margin: 2.4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sectionItem {
-    margin: 2rem 0;
+  margin: 2rem;
+  padding: 1.5rem;
+  width: 340px;
+  width: 100%;
+  height: 100%;
+  background: rgba(215, 215, 215, 0.3);
+  border-radius: 5px;
 }
 
 .image {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .image::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .image img {
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 100%;
+  max-height: 170px;
 }
 
 .design-item:hover img {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-.desc{
-    text-align: center;
-    margin: 0 auto;
-    width: 70%;
+.desc {
+  text-align: center;
+  margin: 1rem auto;
 }
-.desc a{
-    font-family: var(--Playfair);
-    font-size: 1rem;
-    color: var(--pur);
-    text-decoration: none;
-
+.desc a {
+  font-family: var(--Playfair);
+  font-size: 1rem;
+  color: var(--pur);
+  text-decoration: none;
 }
