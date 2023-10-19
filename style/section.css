@@ -51,7 +51,7 @@
 .image img {
   transition: all 0.5s ease;
   width: 100%;
-  max-height: 170px;
+  max-height: 130px;
 }
 
 .design-item:hover img {
@@ -67,4 +67,33 @@
   font-size: 1rem;
   color: var(--pur);
   text-decoration: none;
+}
+
+
+.about-desc h3{
+  font-family: var(--Playfair);
+  font-size: 1rem;
+  color: var(--pur);
+  margin-top: 20px;
+}
+
+.about-desc ul{
+  margin-left: 20px;
+}
+
+.avatar-image{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.avatar-image img{
+  position: relative;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 10%;
+  /* height: 20%; */
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+
 }
