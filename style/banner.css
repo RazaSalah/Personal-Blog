@@ -49,3 +49,17 @@ form {
   width: 70px;
   cursor: pointer;
 }
+
+/* media query */
+@media screen and (min-width: 540px) {
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .search-tx {
+    padding: 0.8rem 0;
+  }
+}

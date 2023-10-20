@@ -99,3 +99,15 @@
   border: none;
   margin-top: 10px;
 }
+
+/* @media screen and (min-width: 768px) {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .sectionItem {
+    margin: 0;
+  }
+} */
