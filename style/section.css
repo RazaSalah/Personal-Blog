@@ -1,4 +1,4 @@
-@import url("./main.css");
+@import url("./common.css");
 @import url("./banner.css");
 
 .project {
@@ -69,24 +69,23 @@
   text-decoration: none;
 }
 
-
-.about-desc h3{
+.about-desc h3 {
   font-family: var(--Playfair);
   font-size: 1rem;
   color: var(--pur);
   margin-top: 20px;
 }
 
-.about-desc ul{
+.about-desc ul {
   margin-left: 20px;
 }
 
-.avatar-image{
+.avatar-image {
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.avatar-image img{
+.avatar-image img {
   position: relative;
   content: "";
   top: 0;
@@ -95,5 +94,8 @@ align-items: center;
   /* height: 20%; */
   background: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
-
+}
+.button {
+  border: none;
+  margin-top: 10px;
 }

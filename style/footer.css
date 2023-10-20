@@ -1,0 +1,32 @@
+@import url("./common.css");
+
+footer {
+  background: var(--exDark);
+  text-align: center;
+  grid-area: ft;
+  color: #fff;
+  padding: 2rem 0;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 0.8rem;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.social a:hover {
+  color: var(--pur);
+  background: #fff;
+}

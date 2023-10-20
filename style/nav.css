@@ -1,0 +1,44 @@
+@import url("./common.css");
+header {
+  grid-area: hd;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
+    /* ,
+    url("https://source.unsplash.com/1800x800/?landscape") */;
+  min-height: 100vh;
+}
+.nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  color: var(--pur);
+  font-family: var(--Playfair);
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+.item {
+  text-align: center;
+  padding: 0.8rem 0 0.2rem 0;
+}
+.item a {
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 0.6rem 0.3rem;
+  transition: opacity 0.8s ease;
+}
+.item a:hover {
+  opacity: 0.5;
+}
