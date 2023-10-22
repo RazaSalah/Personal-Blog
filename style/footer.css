@@ -8,7 +8,8 @@ footer {
   padding: 2rem 0;
 }
 .social {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2 ,50px);
   justify-content: center;
   margin-bottom: 1rem;
 }
