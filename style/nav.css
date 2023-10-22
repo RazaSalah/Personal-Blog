@@ -50,3 +50,13 @@ header {
     padding-right: 1.2rem;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  }
+}
